@@ -143,7 +143,9 @@
             var lightbox = lity();
             $( document ).on( 'click', '.beta-github', function(e){
                 e.preventDefault();
-                lightbox( '<div id="beta-github-message" class="lightbox-message"><h3>FormWorks Is In Beta</h3><p>You can download the beta from the <a href="https://github.com/CalderaWP/formworks">Github Repo</a></p></div>');
+                lightbox( '<div id="beta-github-message" class="lightbox-message"><h3>FormWorks Is In Beta</h3>' +
+						'<ul><li><a href="https://github.com/CalderaWP/formworks/raw/master/releases/formworks-1.0.0-b-1.zip" title="download FormWorks" >Download FormWorks Beta (zipo file)</a>' +
+						'<li><a href="https://github.com/CalderaWP/formworks" >Clone FormWorks Git Repo (requires Composer)</a></li></ul></div>');
             } );
             $( document ).on( 'click', '.beta-other', function(e){
                 e.preventDefault();
