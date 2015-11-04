@@ -15,7 +15,10 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
         <link rel="stylesheet" href="assets/css/lity.min.css">
-
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.15/webcomponents.min.js"></script>
+		<link rel="import" href="components/iron-ajax/iron-ajax.html">
+		<link rel="import" href="components/pricing.html">
 	</head>
 	<body id="top">
 
@@ -116,6 +119,7 @@
 
 			</div>
 		</section>
+		<edd-prices url="https://calderawp.com/wp-json/calderawp_api/v2/products/" id="2025"></edd-prices>
 
 		<!-- Footer -->
 			<footer id="footer">
@@ -131,7 +135,6 @@
 			</footer>
 
 		<!-- Scripts -->
-        <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/jquery.scrolly.min.js"></script>
         <script src="assets/js/skel.min.js"></script>
         <script src="assets/js/util.js"></script>
