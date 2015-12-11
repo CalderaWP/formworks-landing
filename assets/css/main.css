@@ -4200,3 +4200,7 @@ p.disclaimer {
 	position: relative;
 	overflow: hidden;
 }
+
+#testimonials .image {
+    padding: 4px;
+}
