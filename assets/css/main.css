@@ -2311,6 +2311,8 @@
 		display: inline-block;
 		position: relative;
 		overflow: hidden;
+		padding: 2%;
+		background: #F1F1F1;
 	}
 
 		.image img {
@@ -2319,11 +2321,11 @@
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+
 		}
 
 			.image.left img, .image.right img {
-				width: 100%;
+
 			}
 
 		.image.left {
@@ -4175,6 +4177,7 @@ img.form-builder-logo {
 
 ul.form-builder-logos li {
 	display: inline;
+	padding: 0 3%;
 }
 
 /**Footer**/
