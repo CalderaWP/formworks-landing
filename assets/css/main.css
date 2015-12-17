@@ -4209,9 +4209,10 @@ p.disclaimer {
 #logo {
 	display: block;
 	width: 100%;
-	height: 120px;
+	height: 137px;
 	background: url(../../images/logo.png) no-repeat;
 	background-size: 100% !important;
+	
 }
 
 #logo span {
